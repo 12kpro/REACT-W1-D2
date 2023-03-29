@@ -19,13 +19,16 @@ const SiteMain = (props) => (
       <AllTheBooks title="scifi" books={scifi} />
       <SiteFooter>
         <Nav.Item>
-          <Nav.Link href="/home">Active</Nav.Link>
+          <Nav.Link href="#">Active</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="link-1">Link</Nav.Link>
+          <Nav.Link href="#">Link</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="link-2">Link</Nav.Link>
+          <Nav.Link href="#">Link</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <p className="m-0">Copyright EPIBOOK</p>
         </Nav.Item>
       </SiteFooter>
     </Container>
